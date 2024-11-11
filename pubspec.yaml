@@ -13,8 +13,9 @@ dependencies:
 
   path_provider: ^2.1.4
   flutter_colorpicker: ^1.1.0
-  google_fonts: ^6.2.1
-  screenshot: ^3.0.0
+  google_fonts: ^6.2.0
+  screenshot: ^2.5.0
+  phosphor_flutter: ^2.1.0
 
 
 
@@ -22,11 +23,11 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
 
-# For information on the generic Dart part of this file, see the
-# following page: https://dart.dev/tools/pub/pubspec
+  # For information on the generic Dart part of this file, see the
+  # following page: https://dart.dev/tools/pub/pubspec
 
-# The following section is specific to Flutter.
-#flutter:
+  # The following section is specific to Flutter.
+  #flutter:
 
   # To add assets to your package, add an assets section, like this:
   # assets:
