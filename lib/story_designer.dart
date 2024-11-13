@@ -252,7 +252,7 @@ class _StoryDesignerState extends State<StoryDesigner> {
                                   mainAxisAlignment: MainAxisAlignment.center,
                                   children: [
                                     IconButton(
-                                      icon: Icon(Icons.color_lens_outlined,
+                                      icon: Icon(PhosphorIconsRegular.palette,
                                           color: Colors.white),
                                       onPressed: () {
                                         // raise the [showDialog] widget
@@ -314,7 +314,8 @@ class _StoryDesignerState extends State<StoryDesigner> {
                                                 ),
                                               )
                                             : BoxDecoration(),
-                                        child: Icon(Icons.auto_awesome,
+                                        child: Icon(
+                                            PhosphorIconsRegular.sparkle,
                                             color: currentTextStyle != 2
                                                 ? Colors.white
                                                 : Colors.black),
@@ -480,7 +481,7 @@ class _StoryDesignerState extends State<StoryDesigner> {
                           ),
                         ),
                         child: Icon(
-                          Icons.delete,
+                          PhosphorIconsRegular.trash,
                           color: Colors.white,
                           size: !isDeletePosition ? 30 : 50,
                         ),
